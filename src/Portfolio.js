@@ -12,8 +12,8 @@ import {
 } from "react-bootstrap";
 import { FaLinkedin, FaEnvelope, FaPhone, FaDownload } from "react-icons/fa";
 
-const RESUME_PATH = "/resume.pdf";
-const PHOTO_PATH = "/vishnu.jpg";
+const PHOTO_PATH  = process.env.PUBLIC_URL + "/vishnu.jpg";
+const RESUME_PATH = process.env.PUBLIC_URL + "/resume.pdf";
 
 // ===== NEW: Data mapped from your resume =====
 const COURSES = [
